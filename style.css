@@ -139,6 +139,9 @@ nav{
 .section-2-card>svg{
     max-height: 200px;
 }
+.section-2-card>button:hover{
+    background-color: #F94A3D;
+}
 #hr-line{
     border-top: 1px solid rgba(234, 234, 234, 1);
     width: 90%;
@@ -188,6 +191,83 @@ nav{
 }
 #testamonials p{
     color: #69697B;
+}
+#call-to-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  
+
+  
+}
+#call-to-action-body{
+    margin-top: 50px;
+    width: 70%;
+    max-width: 600px;
+    color: white;
+}
+#call-to-action-body>p{
+    max-width: 300px;
+}
+#call-to-action-inner{
+   
+    display: flex;
+
+    justify-content: center;
+    background-image:url("./images/Call\ to\ Action.png");
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+a{
+    cursor: pointer;
+}
+a>svg:hover{
+    opacity:0.8 ;
+    cursor: pointer;
+}
+
+#call-to-action{
+    padding-bottom:0px ;
+}
+
+@media screen  and (max-width:1000px) {
+    #call-to-action-inner>svg{
+        display: none;
+        
+    }
+    #call-to-action-inner{
+        width: 100%;
+        background-size: 100% 100%;
+    }
+    #testamonials{
+        margin: 10px;
+       font-size: small;
+    }
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+footer>div{
+    flex: 1;
+    max-width: 300px;
+    padding-right: 20px;
+
+}
+footer>div>p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer>table{
+    flex: 3;
+
+
+   
+   
 }
 
 /* @media screen and (max-width:1360px ) {
